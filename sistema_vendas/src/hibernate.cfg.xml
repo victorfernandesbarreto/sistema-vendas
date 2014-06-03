@@ -10,8 +10,9 @@
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property> 
 	
-		<mapping class="com.studiod.sistema.vendas.cliente.Cliente" />
-	
+		<mapping class="com.studiod.sistema.vendas.entity.Cliente" />
+		<mapping class="com.studiod.sistema.vendas.entity.Produto" />
+		<mapping class="com.studiod.sistema.vendas.entity.Venda" />
 	</session-factory> 
 </hibernate-configuration>
 

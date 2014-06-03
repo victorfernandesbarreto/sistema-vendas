@@ -1,4 +1,4 @@
-package com.studiod.sistema.vendas.cliente;
+package com.studiod.sistema.vendas.entity;
 
 import java.util.Date;
 
