@@ -66,4 +66,12 @@
   <listener>
     <listener-class>org.apache.myfaces.webapp.StartupServletContextListener</listener-class>
   </listener>
+  <filter>
+  	<filter-name>conexaoFilter</filter-name>
+  	<filter-class>com.studiod.sistema.vendas.util.ConexaoHibernateFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>conexaoFilter</filter-name>
+  	<url-pattern>*.jsf</url-pattern>
+  </filter-mapping>
 </web-app>
